@@ -1,0 +1,60 @@
+  <!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Star Lord Fan Club</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="fan_club.html">Fan Club</a></li>
+    </ul>
+  </nav>
+  <body>
+<form action="/submit.php" method="post">
+<ul>
+  <li>
+    <label for="first_name">First Name:</label>
+    <input type="text" id="first_name" name="user_first_name">
+  </li>
+    <li>
+    <label for="last_name">Last Name:</label>
+    <input type="text" id="last_name" name="user_last_name">
+  </li>
+  <li>
+    <label for="mail">E-mail:</label>
+    <input type="email" id="mail" name="user_email">
+  </li>
+  <li>
+    <label for="tel">Telephone:</label>
+    <input type="tel" id="tel" name="tel">
+  </li>
+    <li>
+    <label for="msg">Message:</label>
+    <textarea id="msg" name="user_message"></textarea>
+  </li>
+  <li>
+    When can you meet? (select all that apply)<br>
+    <input type="checkbox" id="Monday" name="Monday" value="Bike">
+    <label for="Monday"> Monday</label><br>
+    <input type="checkbox" id="Tuesday" name="Tuesday" value="Car">
+    <label for="Tuesday"> Tuesday</label><br>
+    <input type="checkbox" id="Wednesday" name="Wednesday" value="Boat">
+    <label for="Wednesday"> Wednesday</label><br>
+    <input type="checkbox" id="Thursday" name="Thursday" value="Bike">
+    <label for="Thursday"> Thursday</label><br>
+    <input type="checkbox" id="Friday" name="Friday" value="Car">
+    <label for="Friday"> Friday</label><br>
+    <input type="checkbox" id="Saturday" name="Saturday" value="Boat">
+    <label for="Saturday"> Saturday</label><br>
+    <input type="checkbox" id="Sunday" name="Sunday" value="Boat">
+    <label for="Sunday"> Sunday</label><br>
+  </li>
+ </ul>
+  <li class="button">
+  <button type="submit">Send your message</button>
+</li>
+</form>
+</body>
